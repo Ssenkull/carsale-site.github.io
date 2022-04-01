@@ -1,0 +1,188 @@
+@media(max-width: 1140px){
+    .services__item:hover{
+        width: 450px;
+    }
+}
+
+@media(max-width: 1024px){
+    .header__images{
+        width: 80%;
+    }
+    .services{
+        padding-top: 250px;
+    }
+    .services__inner{
+        flex-wrap: wrap;
+    }
+    .services__list{
+        order: -1;
+        margin-bottom: 30px;
+    }
+    .services__list,
+    .services__item,
+    .services__item:hover,
+    .services__content{
+        width: 100%;
+    }
+    .services__content{
+        margin-right: 0;
+    }
+    .benefits__image{
+        display: none;
+    }
+}
+
+
+
+@media(max-width: 900px){
+    .phone{
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .header__title{
+        font-size: 54px;
+        line-height: 74px;
+    }
+    .header__subtitle{
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .header__social{
+        padding: 30px 0 20px 53px;
+    }
+    .contacts__inner{
+        display: block;
+        text-align: center;
+    }
+    .contacts__list{
+        margin-bottom: 30px;
+    }
+    .contacts__input{
+        width: 100%;
+    }
+    .contacts__btn{
+        margin-top: 20px;
+    }
+    .contacts__title{
+        margin-left: 0;
+        text-align: center;
+    }
+}
+
+@media(max-width: 768px){
+    .benefits__inner{
+        text-align: center;
+    }
+    .benefits__list{
+        padding: 25px 15px;
+    }
+    .benefits__item{
+        width: 100%;
+    }
+    .benefits__title{
+        margin-left: 0;
+    }
+    .carousel .slick-dots button {
+        width: 25px;
+    }
+    
+}
+
+@media(max-width: 600px){
+    .header__content{
+        padding-top: 0;
+        text-align: center;
+    }
+    .header__social{
+        padding: 30px 0 20px 0;
+        justify-content: center;
+    }
+    .services{
+        padding-top: 150px;
+    }
+    .title{
+        font-size: 28px;
+        line-height: 36px;
+        margin-bottom: 30px;
+    }
+    body{
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .services__item::before{
+        top: 5px;
+    }
+    .services__content{
+        text-align: center;
+    }
+    .benefits__item-num{
+        font-size: 28px;
+        line-height: 36px;
+    }
+    .carousel__item-img{
+        width: 100%;
+    }
+    .carousel .slick-dots button {
+        width: 10px;
+    }
+}
+
+@media(max-width: 520px){
+    .header__top{
+        flex-direction: column;
+    }
+    .logo{
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    .header__title{
+        margin-bottom: 20px;
+    }
+    .header__images{
+        position: static;
+        width: 100%;
+    }
+    .services{
+        padding-top: 50px;
+    }
+    .services__item::before{
+        left: 11px;
+    }
+    .services__item{
+        padding: 10px 15px 10px 60px;
+    }
+    .button--decor::before{
+        right: -35px;
+        width: 80px;
+    }
+    .button--decor::after{
+        margin-left: 90px;
+    }
+    .services__inner,
+    .benefits,
+    .carousel{
+        margin-bottom: 50px;
+    }
+    .contacts__form{
+        padding: 50px 0 57px;
+    }
+    .contacts__input {
+        width: 80%;
+        margin: 20px auto;
+    }
+}
+
+@media(max-width: 360px){
+    .button--decor::before, 
+    .button--decor::after{
+        display: none;
+    } 
+}
+
+@media(max-width: 340px){
+    .header__title{
+        font-size: 44px;
+        line-height: 50px;
+    }
+}
+
